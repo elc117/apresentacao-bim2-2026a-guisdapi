@@ -2,6 +2,11 @@
 
 ## Parte 1 - Prática da Aula Passada
 
+### Exercício 1
+
+- Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente...
+- 
+
 ### Exercício 2
 
 - Fiquei em dúvida ao criar os métodos get/set, não sabia o que isso significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
