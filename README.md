@@ -10,7 +10,7 @@
 
 ### Exercício 2: ListOfTeamMates
 
-- Fiquei em dúvida ao criar os métodos get/set, não sabia o que isso significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
+- Fiquei em dúvida ao criar os métodos get/set, não lembrava o que significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
 - Ao criar o construtor default e com argumentos também fiquei perdido e tive que rever o material de aulas passadas para relembrar.
 - Para fazer esse exercício fui me baseando no primeiro e no material de outras aulas.
 - Fiquei em dúvida ao fazer um `if` dentro do `for`, como escrever a comparação de um atributo ao elemento específico da lista do tipo `ArrayList`.
