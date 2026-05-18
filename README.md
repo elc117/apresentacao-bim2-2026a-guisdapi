@@ -24,6 +24,7 @@
 ### Exercício 3: Groups
 
 - Nesse exercício foram criadas 4 classes: Group, Main, Professor e Student.
+- Na classe Group foi necessário completar o método userExists (para verificar se o userId estava presente na lista) e completar countMembers (para contar o total de de membros do grupo)
 - Dificuldades:
 - Dificuldade em percorrer as listas de estudantes e professores.
 - Dificuldade em como acessar as variáveis. Por exemplo, como acessar o `userId` da lista de estudantes para comparar com o `userId` do método `userExists`.
