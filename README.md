@@ -12,6 +12,8 @@
 ### Exercício 2: ListOfTeamMates
 
 - Nesse exercícios foi necessário fazer um código para armazenar dados de uma equipe em uma lista.
+- Na classe TeamMate foram criados os métodos get/set e na classe ListOfTeamMates foi criado o main e foi feita a manipulação da lista com a nova classe ArrayList.]
+- Dúvidas/Dificuldades:
 - Fiquei em dúvida ao criar os métodos get/set, não lembrava o que significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
 - Ao criar o construtor default e com argumentos também fiquei perdido e tive que rever o material de aulas passadas para relembrar.
 - Para fazer esse exercício fui me baseando no primeiro e no material de outras aulas.
@@ -21,6 +23,8 @@
 
 ### Exercício 3: Groups
 
+- Nesse exercício foram criadas 4 classes: Group, Main, Professor e Student.
+- Dificuldades:
 - Dificuldade em percorrer as listas de estudantes e professores.
 - Dificuldade em como acessar as variáveis. Por exemplo, como acessar o `userId` da lista de estudantes para comparar com o `userId` do método `userExists`.
 - Deu erro de comparação de strings, comparei strings usando ==, então pesquisei, no site w3schools, uma função que comparasse strings e achei .equals.
