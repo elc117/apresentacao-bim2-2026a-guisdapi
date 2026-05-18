@@ -6,7 +6,7 @@
 
 - Fiquei em dúvida ao criar os métodos get/set, não sabia o que isso significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
 - Ao criar o construtor default e com argumentos também fiquei perdido e tive que rever o material de aulas passadas para relembrar.
-- Para criar o segundo exercício fui me baseando no primeiro.
+- Para fazer esse exercício fui me baseando no primeiro e no material de outras aulas.
 - Fiquei em dúvida ao fazer um `if` dentro do `for`, como escrever a comparação de um atributo ao elemento específico da lista do tipo `ArrayList`.
 - Usei `list.get(i).getOnline() == true`, apenas adaptei o código anterior `list.get(i).getName()`.
 - Tive dificuldade em usar o método `.set()` da classe `ArrayList`, ao tentar acessar um objeto dentro da lista da classe. Resolvi criando um novo objeto na linha anterior e substituindo ele no `.set()`.
