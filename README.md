@@ -3,42 +3,41 @@
 ## Parte 1 - Prática da Aula Passada
 
 ### Exercício 1: Point, Circle e ListOfCircles
-
-- No primeiro exercício são criadas três classes: Point, Circle e ListOfCircles.
-- Point cria um ponto, Circle cria um círculo com um ponto central e ListOfCircles cria o main e chama as outras classes.
+- No primeiro exercício são criadas três classes: `Point`, `Circle` e `ListOfCircles`.
+- `Point` cria um ponto, `Circle` cria um círculo com um ponto central e `ListOfCircles` cria o main e chama as outras classes.
 - Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente... O compilador falou que o método main não foi encontrado na classe especificada.
-- Achei os métodos da nova classe ArrayList intuitivos para utilizar.
+- Achei os métodos da nova classe `ArrayList` intuitivos para utilizar.
+
+---
 
 ### Exercício 2: ListOfTeamMates
+- Nesse exercício foi necessário fazer um código para armazenar dados de uma equipe em uma lista.
+- Na classe `TeamMate` foram criados os métodos get/set e na classe `ListOfTeamMates` foi criado o main e foi feita a manipulação da lista com a nova classe `ArrayList`.
+- **Dúvidas/Dificuldades:**
+  - Fiquei em dúvida ao criar os métodos get/set, não lembrava o que significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
+  - Ao criar o construtor default e com argumentos também fiquei perdido e tive que rever o material de aulas passadas para relembrar.
+  - Para fazer esse exercício fui me baseando no primeiro e no material de outras aulas.
+  - Fiquei em dúvida ao fazer um `if` dentro do `for`, como escrever a comparação de um atributo ao elemento específico da lista do tipo `ArrayList`.
+  - Usei `list.get(i).getOnline() == true`, apenas adaptei o código anterior `list.get(i).getName()`.
+  - Tive dificuldade em usar o método `.set()` da classe `ArrayList`, ao tentar acessar um objeto dentro da lista da classe. Resolvi criando um novo objeto na linha anterior e substituindo ele no `.set()`.
 
-- Nesse exercícios foi necessário fazer um código para armazenar dados de uma equipe em uma lista.
-- Na classe TeamMate foram criados os métodos get/set e na classe ListOfTeamMates foi criado o main e foi feita a manipulação da lista com a nova classe ArrayList.]
-- Dúvidas/Dificuldades:
-- Fiquei em dúvida ao criar os métodos get/set, não lembrava o que significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
-- Ao criar o construtor default e com argumentos também fiquei perdido e tive que rever o material de aulas passadas para relembrar.
-- Para fazer esse exercício fui me baseando no primeiro e no material de outras aulas.
-- Fiquei em dúvida ao fazer um `if` dentro do `for`, como escrever a comparação de um atributo ao elemento específico da lista do tipo `ArrayList`.
-- Usei `list.get(i).getOnline() == true`, apenas adaptei o código anterior `list.get(i).getName()`.
-- Tive dificuldade em usar o método `.set()` da classe `ArrayList`, ao tentar acessar um objeto dentro da lista da classe. Resolvi criando um novo objeto na linha anterior e substituindo ele no `.set()`.
+---
 
 ### Exercício 3: Groups
+- Nesse exercício foram criadas 4 classes: `Group`, `Main`, `Professor` e `Student`.
+- Na classe `Group` foi necessário completar o método `userExists` (para verificar se o `userId` estava presente na lista) e completar `countMembers` (para contar o total de membros do grupo).
+- **Dificuldades:**
+  - Dificuldade em percorrer as listas de estudantes e professores.
+  - Dificuldade em como acessar as variáveis. Por exemplo, como acessar o `userId` da lista de estudantes para comparar com o `userId` do método `userExists`.
+  - Deu erro de comparação de strings, comparei strings usando `==`, então pesquisei, no site w3schools, uma função que comparasse strings e achei `.equals`.
+- **Refletindo sobre o código:**
+  - *Você consegue identificar alguma redundância nos códigos (dentro de uma mesma classe ou em classes diferentes)?*
+  Talvez a classe `Student` e `Professor` poderiam ser a mesma, com algumas alterações, porque ambas possuem alguns métodos iguais... ou fazer alguma relação de herança entre elas. Laço `for` para as duas listas.
+  - *O que aconteceria se fosse necessário armazenar outros atributos sobre estudantes e professores? (por exemplo, CPF, data de nascimento, telefone, etc.?)*
+  Deveriam ser necessários criar novos atributos dentro da classe.
+  - *O que aconteceria na classe `Group` se tivéssemos outras categorias de membros além de estudantes e professores (técnicos, administradores, etc.)?*
+  Deveriam ser chamados essas novas classes dentro da classe `Group`, e deveriam ser ajustados alguns métodos para iterar sobre as novas listas que seriam criadas.
 
-- Nesse exercício foram criadas 4 classes: Group, Main, Professor e Student.
-- Na classe Group foi necessário completar o método userExists (para verificar se o userId estava presente na lista) e completar countMembers (para contar o total de de membros do grupo)
-- Dificuldades:
-- Dificuldade em percorrer as listas de estudantes e professores.
-- Dificuldade em como acessar as variáveis. Por exemplo, como acessar o `userId` da lista de estudantes para comparar com o `userId` do método `userExists`.
-- Deu erro de comparação de strings, comparei strings usando ==, então pesquisei, no site w3schools, uma função que comparasse strings e achei .equals.
-- Refletindo sobre o código. 
-- Você consegue identificar alguma redundância nos códigos (dentro de uma mesma classe ou em classes diferentes)?
-Talvez a classe Student e Professor poderiam ser a mesma, com algumas alterações, porque ambas possuem alguns métodos iguais... ou fazer alguma relação de herança entre elas.
-Laço for para as duas listas.
-
-- O que aconteceria se fosse necessário armazenar outros atributos sobre estudantes e professores? (por exemplo, CPF, data de nascimento, telefone, etc?)
-Deveriam ser necessários criar novos atributos dentro da classe.
-
-- O que aconteceria na classe Group se tivéssemos outras categorias de membros além de estudantes e professores (técnicos, administradores, etc.)?
-Deveriam ser chamados essas novas classes dentro da classe Group, e deveriam ser ajustados alguns métodos para iterar sobre as novas listas que seriam criadas.
 
 ### Código Exercício 1 - GIF
 <img width="1474" height="912" alt="ex1" src="https://github.com/user-attachments/assets/ee9531bd-1065-4100-8c93-4c00aabd00a2" />
