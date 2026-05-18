@@ -42,9 +42,6 @@ public class Group {
   }
 
   public boolean userExists(String userId) {
-    // COMPLETE-ME
-    // Verifique se existe o userId na lista de estudantes ou de professores
-    // Veja no método anterior como percorrer as listas de estudantes e professores
 
     for (Student s: students) {
       if (userId.equals(s.getUserId())) {
@@ -62,9 +59,6 @@ public class Group {
   }
 
   public int countMembers() {
-    // COMPLETE-ME
-    // Retorne o total de membros do grupo (estudantes e professores)
-    // Para isso, descubra qual método chamar para obter o tamanho de um ArrayList
 
     return students.size() + professors.size();
 
