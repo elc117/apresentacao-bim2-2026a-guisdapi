@@ -22,15 +22,15 @@
 - Dificuldade em percorrer as listas de estudantes e professores.
 - Dificuldade em como acessar as variáveis. Por exemplo, como acessar o `userId` da lista de estudantes para comparar com o `userId` do método `userExists`.
 - Deu erro de comparação de strings, comparei strings usando ==, então pesquisei, no site w3schools, uma função que comparasse strings e achei .equals.
-Refletindo sobre o código. 
-Você consegue identificar alguma redundância nos códigos (dentro de uma mesma classe ou em classes diferentes)?
+- Refletindo sobre o código. 
+- Você consegue identificar alguma redundância nos códigos (dentro de uma mesma classe ou em classes diferentes)?
 Talvez a classe Student e Professor poderiam ser a mesma, com algumas alterações, porque ambas possuem alguns métodos iguais... ou fazer alguma relação de herança entre elas.
 Laço for para as duas listas.
 
-O que aconteceria se fosse necessário armazenar outros atributos sobre estudantes e professores? (por exemplo, CPF, data de nascimento, telefone, etc?)
+- O que aconteceria se fosse necessário armazenar outros atributos sobre estudantes e professores? (por exemplo, CPF, data de nascimento, telefone, etc?)
 Deveriam ser necessários criar novos atributos dentro da classe.
 
-O que aconteceria na classe Group se tivéssemos outras categorias de membros além de estudantes e professores (técnicos, administradores, etc.)?
+- O que aconteceria na classe Group se tivéssemos outras categorias de membros além de estudantes e professores (técnicos, administradores, etc.)?
 Deveriam ser chamados essas novas classes dentro da classe Group, e deveriam ser ajustados alguns métodos para iterar sobre as novas listas que seriam criadas.
 
 ### Código Exercício 1 - GIF
