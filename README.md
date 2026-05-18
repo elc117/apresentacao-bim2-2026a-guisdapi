@@ -4,7 +4,7 @@
 
 ### Exercício 1
 
-- Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente...
+- Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente... O compilador falou que o método main não foi encontrado na classe expecificada.
 - 
 
 ### Exercício 2
