@@ -4,12 +4,14 @@
 
 ### Exercício 1: Point, Circle e ListOfCircles
 
+- No primeiro exercício são criadas três classes: Point, Circle e ListOfCircles.
+- Point cria um ponto, Circle cria um círculo com um ponto central e ListOfCircles cria o main e chama as outras classes.
 - Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente... O compilador falou que o método main não foi encontrado na classe especificada.
-- Percebi que na classe ListOfCircles são criados objetos a partir das classes Circle e Point.
 - Achei os métodos da nova classe ArrayList intuitivos para utilizar.
 
 ### Exercício 2: ListOfTeamMates
 
+- Nesse exercícios foi necessário fazer um código para armazenar dados de uma equipe em uma lista.
 - Fiquei em dúvida ao criar os métodos get/set, não lembrava o que significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
 - Ao criar o construtor default e com argumentos também fiquei perdido e tive que rever o material de aulas passadas para relembrar.
 - Para fazer esse exercício fui me baseando no primeiro e no material de outras aulas.
