@@ -47,8 +47,17 @@ public class Group {
     // Veja no método anterior como percorrer as listas de estudantes e professores
 
     for (Student s: students) {
-      if (userId == students);
+      if (userId.equals(s.getUserId())) {
+        return true;
+      }
     }
+    for (Professor p: professors) {
+      if (userId.equals(p.getUserId())) {
+        return true;
+      }
+    }
+    return false;
+
 
   }
 
@@ -56,6 +65,9 @@ public class Group {
     // COMPLETE-ME
     // Retorne o total de membros do grupo (estudantes e professores)
     // Para isso, descubra qual método chamar para obter o tamanho de um ArrayList
+
+    return students.size() + professors.size();
+
   }
 
 
