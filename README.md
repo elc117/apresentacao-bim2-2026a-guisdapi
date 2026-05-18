@@ -5,7 +5,7 @@
 ### Exercício 1: Point, Circle e ListOfCircles
 
 - Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente... O compilador falou que o método main não foi encontrado na classe especificada.
-- 
+- Percebi que na classe ListOfCircles são criados objetos a partir das classes Circle e Point.
 
 ### Exercício 2: ListOfTeamMates
 
