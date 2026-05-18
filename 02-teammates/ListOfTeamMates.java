@@ -25,8 +25,13 @@ public class ListOfTeamMates {
             }
         }
 
-        System.out.println("\nAlterando elemento da lista:");
-        list.set(0, )
+        TeamMate novoIntegrante = new TeamMate("pedro", "Pedro", true);
+        System.out.println("\nAlterando elemento da lista...");
+        list.set(0, novoIntegrante);
+        System.out.println("Nome de cada TeamMate armazenado:");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i).getName());
+        }
 
 
         System.out.println("\nRemovendo todos elementos da lista:");
