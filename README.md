@@ -17,10 +17,14 @@
 - Dificuldade em como acessar as variáveis. Por exemplo, como acessar o `userId` da lista de estudantes para comparar com o `userId` do método `userExists`.
 - Deu erro de comparação de strings, comparei strings usando ==, então pesquisei, no site w3schools, uma função que comparasse strings e achei .equals.
 
+### Código Exercício 1 - GIF
+<img width="1474" height="912" alt="ex1" src="https://github.com/user-attachments/assets/ee9531bd-1065-4100-8c93-4c00aabd00a2" />
 
+### Código Exercício 2 - GIF
+<img width="1148" height="590" alt="ex2" src="https://github.com/user-attachments/assets/ccdfac98-c93c-4e46-950b-6d00f3a3a5b2" />
+
+### Código Exercício 3 - GIF
 <img width="870" height="526" alt="ex3" src="https://github.com/user-attachments/assets/1c7b392e-07b7-4a49-b844-9426fa9b2418" />
-
-
 
 ---
 
