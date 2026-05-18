@@ -6,7 +6,7 @@
 
 - Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente... O compilador falou que o método main não foi encontrado na classe especificada.
 - Percebi que na classe ListOfCircles são criados objetos a partir das classes Circle e Point.
-- Achei o novo método ArrayList bem intuitivo para utilizar.
+- Achei os métodos da nova classe ArrayList intuitivos para utilizar.
 
 ### Exercício 2: ListOfTeamMates
 
