@@ -2,12 +2,12 @@
 
 ## Parte 1 - Prática da Aula Passada
 
-### Exercício 1
+### Exercício 1: Point, Circle e ListOfCircles
 
 - Percebi um erro ao tentar executar `java Circle` ou `java Point`, `java ListOfCircles` rodou corretamente... O compilador falou que o método main não foi encontrado na classe especificada.
 - 
 
-### Exercício 2
+### Exercício 2: ListOfTeamMates
 
 - Fiquei em dúvida ao criar os métodos get/set, não sabia o que isso significava, fiz uma pesquisa na internet e achei um artigo de um blog da Rocketseat que ajudou a elucidar.
 - Ao criar o construtor default e com argumentos também fiquei perdido e tive que rever o material de aulas passadas para relembrar.
@@ -16,7 +16,7 @@
 - Usei `list.get(i).getOnline() == true`, apenas adaptei o código anterior `list.get(i).getName()`.
 - Tive dificuldade em usar o método `.set()` da classe `ArrayList`, ao tentar acessar um objeto dentro da lista da classe. Resolvi criando um novo objeto na linha anterior e substituindo ele no `.set()`.
 
-### Exercício 3
+### Exercício 3: Groups
 
 - Dificuldade em percorrer as listas de estudantes e professores.
 - Dificuldade em como acessar as variáveis. Por exemplo, como acessar o `userId` da lista de estudantes para comparar com o `userId` do método `userExists`.
